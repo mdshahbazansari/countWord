@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="WordCount.css">
+    <title>Word Count & Spellink Check
+    </title>
+</head>
+<body>
+
+    <embed src="backgroundMusic.mp3" loop="true" autostart="" width="2" height="0">
+    <div class="main">
+        <h1>Word Count & Spelling check</h1>
+        <p>you can input and check gramaticaly spelling and errors with this web</p>
+         <textarea class="textarea" id="textarea" placeholder="Text hare...." maxlength="1000"></textarea>
+         
+         <div class="coutainer">
+             <p>total character : <span id="total-count">0</span></p>
+             <p>Reamaining : <span id="remaining-count">1000</span></p>
+        </div>
+            
+        <button onclick="CopyText()">Text Copy</button>
+        
+    </div>
+
+    <script src="WordCount.js"></script>
+</body>
+</html>
